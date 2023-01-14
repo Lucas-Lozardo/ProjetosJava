@@ -1,0 +1,35 @@
+package entities;
+
+public class IndividualAccount extends Account{
+
+	private Double HealthIncome;
+	
+	public IndividualAccount() {
+		super();
+	}
+
+	public IndividualAccount(String name, Double anualIncome, Double healthIncome) {
+		super(name, anualIncome);
+		HealthIncome = healthIncome;
+	}
+
+	public Double getHealthIncome() {
+		return HealthIncome;
+	}
+
+	public void setHealthIncome(Double healthIncome) {
+		HealthIncome = healthIncome;
+	}
+	
+	@Override
+	public Double taxesPaid() {
+		double taxesPaid = 0.0;
+		if(HealthIncome < 20000) {
+			taxesPaid = HealthIncome * 0.15;
+		}
+		else {
+			taxesPaid = HealthIncome * 0.25;
+		}
+		return taxesPaid;
+	}
+}

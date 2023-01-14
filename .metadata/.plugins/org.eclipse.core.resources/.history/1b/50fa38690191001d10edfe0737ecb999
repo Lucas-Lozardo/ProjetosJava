@@ -1,0 +1,26 @@
+package entities;
+
+public class CompanyAccount extends Account{
+	
+	private Integer numberOfEmployees;
+	
+	public CompanyAccount() {
+		super();
+	}
+
+	public CompanyAccount(String name, Double anualIncome, Integer numberOfEmployees) {
+		super(name, anualIncome);
+		this.numberOfEmployees = numberOfEmployees;
+	}
+
+	public Integer getNumberOfEmployees() {
+		return numberOfEmployees;
+	}
+
+	public void setNumberOfEmployees(Integer numberOfEmployees) {
+		this.numberOfEmployees = numberOfEmployees;
+	}
+	
+	
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;bank&apos; to &apos;entities&apos;&#x0A;- Original project: &apos;course_java_poo_construct_get_set_bank&apos;&#x0A;- Original element: &apos;course_java_poo_construct_get_set_bank/src/bank&apos;&#x0A;- Renamed element: &apos;course_java_poo_construct_get_set_bank/src/entities&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;bank&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;bank" name="entities" qualified="false" references="true" stamp="1669847293272" textual="false" version="1.0"/>
+</session>
