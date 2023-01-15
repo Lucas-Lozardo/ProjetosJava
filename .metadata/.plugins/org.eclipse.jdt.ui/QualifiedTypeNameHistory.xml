@@ -41,4 +41,5 @@
     <fullyQualifiedTypeName name="entities.Account"/>
     <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
     <fullyQualifiedTypeName name="exceptions.BusinessException"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
 </qualifiedTypeNameHistroy>
