@@ -30,7 +30,18 @@ public class Program3 {
 			
 			///Criação de subpastas no diretório
 			boolean sucess = new File(strPath + "/subdir").mkdir();
+			System.out.println("Directory created succesfully: " + sucess);
 			sc.close();
+			
+			///Informações do caminho do arquivo
+			
+			///Nome do arquivo
+			System.out.println("getName: " + path.getName());
+			///Caminho do arquivo
+			System.out.println("getParent: " + path.getParent());
+			///Caminho e nome do arquivo
+			System.out.println("getPath: " + path.getPath());
+			
 	}
 
 }
