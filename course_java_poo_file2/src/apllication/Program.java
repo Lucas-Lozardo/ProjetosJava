@@ -8,7 +8,7 @@ public class Program {
 
 	public static void main(String[] args) {
 		
-		String path = "/course_java_poo_file2/teste5out.txt";
+		String path = "eclipse-workspace/course_java_poo_file2/imput.csv";
 		
 		try (BufferedReader br = new BufferedReader(new FileReader(path))){
 

@@ -1,5 +1,6 @@
 package application;
 
+import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
@@ -19,7 +20,12 @@ public class Program {
 		System.out.println("Enter file path: ");
 		String sourceFileStr = sc.nextLine();
 		
+		File sourceFile = new File(sourceFileStr);
+		String sourceFolderStr = sourceFile.getParent();
 		
+		boolean sucess = new File(sourceFolderStr + "/out").mkdir();
+		
+		String targetFilerStr = sourceFolderStr + "/out/summary.csv";
 
 	}
 
