@@ -8,7 +8,7 @@ public class Program {
 
 	public static void main(String[] args) {
 	
-		File file = new File("Diretório do arquivo");
+		File file = new File("/Users/lozardomacbook/Documentos DEV/eclipse-workspace/course_java_poo_file2/teste5out.txt");
 		Scanner sc = null;
 		try {
 			sc = new Scanner(file);
