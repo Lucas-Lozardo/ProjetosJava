@@ -8,7 +8,7 @@ public class Program {
 
 	public static void main(String[] args) {
 		
-		String path = "/Users/lozardomacbook/Documentos DEV/eclipse-workspace/course_java_poo_file2/teste5out.txt";
+		String path = "/course_java_poo_file2/teste5out.txt";
 		
 		try (BufferedReader br = new BufferedReader(new FileReader(path))){
 
