@@ -29,6 +29,7 @@ public class Program {
 		String sourceFolderStr = sourceFile.getParent();
 		
 		boolean sucess = new File(sourceFolderStr + "/out").mkdir();
+		System.out.println("Directory created succesfully: " + sucess);
 		
 		String targetFilerStr = sourceFolderStr + "/out/summary.csv";
 		
