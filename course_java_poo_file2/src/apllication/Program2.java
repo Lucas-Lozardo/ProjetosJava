@@ -9,7 +9,7 @@ public class Program2 {
 	public static void main(String[] args) {
 		
 		String[] lines = new String[] {"teste11", "teste12", "teste13"};
-		String path = "/Users/lozardomacbook/Documentos DEV/eclipse-workspace/course_java_poo_file2/teste5out.txt";
+		String path = "eclipse-workspace/course_java_poo_file2/teste5out.txt";
 		
 		///criar um novo arquivo ou recriar o arquivo ja existente, deletando o que já havia antes
 		try(BufferedWriter bw = new BufferedWriter(new FileWriter(path))){
