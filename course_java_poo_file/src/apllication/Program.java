@@ -8,7 +8,7 @@ public class Program {
 
 	public static void main(String[] args) {
 	
-		File file = new File("/Documentos DEV/eclipse-workspace/course_java_poo_file2/teste5out.txt");
+		File file = new File("/Documentos DEV/eclipse-workspace/course_java_poo_file2/imput.txt");
 		Scanner sc = null;
 		try {
 			sc = new Scanner(file);
